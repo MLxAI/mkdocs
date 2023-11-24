@@ -8,11 +8,11 @@
 
 #### USING CURL REQUESTS
 
-#### ```curl -X 'POST' 'https://openai-assistant-kx2ozxq4oa-uc.a.run.app/add_user_session?session_id=dummy&authentication_token=453008DJHBC743248857' -H 'accept: application/json' -d '' ```
+#### ```curl -X 'POST' 'https://https://mlxapi-kx2ozxq4oa-uc.a.run.app/add_user_session?session_id=dummy&authentication_token=453008DJHBC743248857' -H 'accept: application/json' -d '' ```
 
 #### USING HTTP Request URL
 
-####  ```https://openai-assistant-kx2ozxq4oa-uc.a.run.app/add_user_session?session_id=dummy&authentication_token=453008DJHBC743248857```
+####  ```https://https://mlxapi-kx2ozxq4oa-uc.a.run.app/add_user_session?session_id=dummy&authentication_token=453008DJHBC743248857```
 
 #### Response body
 
@@ -33,11 +33,11 @@
 
 #### USING CURL REQUESTS
 
-#### ```curl -X 'POST' 'https://openai-assistant-kx2ozxq4oa-uc.a.run.app/v1/upload?session_id=dummy&authentication_token=453008DJHBC743248857' -H 'accept: application/json' -H 'Content-Type: multipart/form-data' -F 'media_files=@test.pdf;type=application/pdf' ```
+#### ```curl -X 'POST' 'https://https://mlxapi-kx2ozxq4oa-uc.a.run.app/v1/upload?session_id=dummy&authentication_token=453008DJHBC743248857' -H 'accept: application/json' -H 'Content-Type: multipart/form-data' -F 'media_files=@test.pdf;type=application/pdf' ```
 
 #### USING HTTP Request URL
 
-####  ```https://openai-assistant-kx2ozxq4oa-uc.a.run.app/v1/upload?session_id=3ds&authentication_token=453008DJHBC743248857```
+####  ```https://https://mlxapi-kx2ozxq4oa-uc.a.run.app/v1/upload?session_id=3ds&authentication_token=453008DJHBC743248857```
 
 #### Response body
 
@@ -73,11 +73,11 @@
 
 #### USING CURL REQUESTS
 
-#### ```curl -X 'POST' \'https://openai-assistant-kx2ozxq4oa-uc.a.run.app/v1/get_resp?session_id=3ds&file_id=[file-id1,file-id2]&question=what is this doc about?&prompt_template=You are expert in giving the answer from the given documents. Use your knowledge base to best respond to user question.&authentication_token=453008DJHBC743248857' -H 'accept: application/json' -d '' ```
+#### ```curl -X 'POST' \'https://https://mlxapi-kx2ozxq4oa-uc.a.run.app/v1/get_resp?session_id=3ds&file_id=[file-id1,file-id2]&question=what is this doc about?&prompt_template=You are expert in giving the answer from the given documents. Use your knowledge base to best respond to user question.&authentication_token=453008DJHBC743248857' -H 'accept: application/json' -d '' ```
 
 #### USING HTTP Request URL
 
-####  ```https://openai-assistant-kx2ozxq4oa-uc.a.run.app/session_id=3ds&file_id=["file-id1","file-id2"]&question=what is this doc about?&prompt_template=You are expert in giving the answer from the given documents. Use your knowledge base to best respond to user question.&authentication_token=453008DJHBC743248857```
+####  ```https://https://mlxapi-kx2ozxq4oa-uc.a.run.app/session_id=3ds&file_id=["file-id1","file-id2"]&question=what is this doc about?&prompt_template=You are expert in giving the answer from the given documents. Use your knowledge base to best respond to user question.&authentication_token=453008DJHBC743248857```
 
 
 ### Note: In this request only change session_id ,file_ids(always in str(list(str)-->["fileid-1","fileid-2"])) and question and if possible change the prompt according to usecase..
